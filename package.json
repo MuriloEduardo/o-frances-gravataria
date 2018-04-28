@@ -1,0 +1,24 @@
+{
+  "name": "o-frances-gravataria",
+  "version": "0.0.0",
+  "description": "Teste para vaga Sênior",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuriloEduardo/o-frances-gravataria.git"
+  },
+  "author": "Murilo Eduardo dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuriloEduardo/o-frances-gravataria/issues"
+  },
+  "homepage": "https://github.com/MuriloEduardo/o-frances-gravataria#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
