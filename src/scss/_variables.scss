@@ -1,0 +1,37 @@
+@import 'mixins';
+
+@include fontface('ttf', 'Nunito', '../fonts/Nunito/Nunito-Bold', bold);
+@include fontface('ttf', 'Nunito', '../fonts/Nunito/Nunito-ExtraLight', 300);
+@include fontface('ttf', 'Nunito', '../fonts/Nunito/Nunito-Light', 600);
+@include fontface('ttf', 'Nunito', '../fonts/Nunito/Nunito-Regular');
+
+@include fontface('otf', 'AkhandSoft', '../fonts/akhandsoft/AkhandSoft-Bold', bold);
+@include fontface('otf', 'AkhandSoft', '../fonts/akhandsoft/AkhandSoft-Semibold', 900);
+@include fontface('otf', 'AkhandSoft', '../fonts/akhandsoft/AkhandSoft-Semilight', 600);
+@include fontface('otf', 'AkhandSoft', '../fonts/akhandsoft/AkhandSoft-Regular');
+
+$gray-base:    #000000;
+$gray-darker:  #1f292f;
+$gray-dark:    #212121;
+$gray:         #1f292f;
+$gray-light:   #f7f7f7;
+$gray-lighter: #f1f1f1;
+$light-base:   #ffffff;
+
+$sans-serif: 'AkhandSoft', sans-serif;
+$serif: 'Nunito', serif;
+
+$light: 300;
+$semilight: 600;
+$normal: normal;
+$semibold: 900;
+$bold: bold;
+
+$font-size-small: 14px;
+$font-size-regular: 16px;
+$font-size-large: 20px;
+$font-size-larger: 26px;
+$font-size-x-large: 38px;
+$font-size-xx-large: 40px;
+$font-size-xxx-large: 52px;
+$font-size-xxxx-large: 72px;
